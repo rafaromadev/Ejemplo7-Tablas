@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <div align="center">
+      <h3>Ejemplo de tabla simple</h3>
+      <table border="1" bgcolor="pink">
+        <caption>
+          Numeración del 1 al 12
+        </caption>
+        <tr bgcolor="violet">
+          <td>UNO</td>
+          <td>DOS</td>
+          <td>TRES</td>
+        </tr>
+        <tr>
+          <td>CUATRO</td>
+          <td>CINCO</td>
+          <td>SEIS</td>
+        </tr>
+        <tr>
+          <td>SIETE</td>
+          <td>OCHO</td>
+          <td>NUEVE</td>
+        </tr>
+        <tr>
+          <td>DIEZ</td>
+          <td>ONCE</td>
+          <td>DOCE</td>
+        </tr>
+      </table>
+    </div>
+    <div align="center">
+      <h3>Ejemplo de tabla con combinación de celdas</h3>
+      <table border="2" style="text-align: center">
+        <tr>
+          <th>Columna 1</th>
+          <th>Columna 2</th>
+          <th>Columna 3</th>
+          <th>Columna 4</th>
+        </tr>
+        <tr>
+          <td colspan="2">Dato 1</td>
+          <td>Dato 3</td>
+          <td rowspan="3">Dato 4</td>
+        </tr>
+        <tr>
+          <td>Dato 1</td>
+          <td>Dato 2</td>
+          <td>Dato 3</td>
+          <!-- <td>Dato 4</td> -->
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">Dato 1</td>
+          <!-- <td>Dato 2</td>
+            <td>Dato 3</td> -->
+          <!-- <td>Dato 4</td> -->
+        </tr>
+        <tr>
+          <!--  <td>Dato 1</td>
+            <td>Dato 2</td> -->
+          <td>Dato 3</td>
+          <td>Dato 4</td>
+        </tr>
+      </table>
+    </div>
+    <div align="center">
+      <h3>Agrupaciones de columnas</h3>
+      <table>
+        <caption>
+          EL PERIÓDICO DIGITAL
+        </caption>
+        <tr>
+          <th>NEWs</th>
+          <th>Deportes</th>
+          <th>Tiempo</th>
+        </tr>
+        <tr>
+          <td>NACIONAL</td>
+          <td>FUTBOL</td>
+          <td>EUROPA</td>
+        </tr>
+        <tr>
+          <td>INTERNACIONAL</td>
+          <td>PETANCA</td>
+          <td>ESPAÑA</td>
+        </tr>
+        <tr>
+          <td>SUCESOS</td>
+          <td>BALONCESTO</td>
+          <td>MADRID</td>
+        </tr>
+        <colgroup>
+          <col style="background-color: lemonchiffon" />
+          <col span="2" style="background-color: lightsalmon" />
+        </colgroup>
+      </table>
+    </div>
+    <div align="center">
+      <table style="text-align: center">
+        <h3>Principal asesino del siglo 19</h3>
+        <tr style="background-color: black; color: blue">
+          <th><a href="https://www.google.com/search?client=firefox-b-d&q=mayores+asesinos+del+siglo+xix"
+            >Google</a></th>
+          <th><a href="https://duckduckgo.com/?t=ffab&q=mayores+asesinos+del+siglo+xix&ia=web"
+            >Duckduckgo</a></th>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://es.wikipedia.org/wiki/Juan_D%C3%ADaz_de_Garayo"
+              >Juan Díaz de Garayo</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.lavanguardia.com/cultura/20181123/453104712144/asesino-famoso-inglaterra-siglo-xix-john-bellingham.html"
+              >John Bellingham</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Sacamantecas.jpg"
+              style="height: 150px"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              src="https://www.lavanguardia.com/files/content_image_desktop_filter/uploads/2018/11/23/5fa44fe53de72.jpeg"
+              style="height: 150px"
+              alt=""
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
